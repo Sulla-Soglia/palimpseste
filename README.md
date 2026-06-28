@@ -1,8 +1,5 @@
 # palimpseste
 
-
-# Palimpseste
-
 **Detecting cultural strata in Alsace-Lorraine architecture using deep learning.**
 
 A building is a palimpsest — each occupation scraped the surface and wrote a new layer. But the old layers show through. Can a CNN learn to read them?
