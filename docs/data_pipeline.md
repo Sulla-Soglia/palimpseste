@@ -49,6 +49,8 @@ Mérimée dump ────────merimee.py───> merimee_*.jsonl ─�
 | Commons "Architecture of Alsace" depth 2 | 914 files → 876 pass filters |
 | GPS match ≤60 m | 246 photos ↔ 124 monuments, median 26 m; 429 photos had no GPS |
 | Period labels | 233/246 labeled |
+| Neustadt collection | 2,996 files → 2,665 pass filters; 295 matched, 265 labeled (german_reich 235) |
+| Image download (1200 px thumbs) | 500/500 unique images fetched, 0 failed, 208 MB; manifest at `data/raw/images/manifest.jsonl` |
 
 Period distribution (multi-label): french_ancien 180 · germanic_hre 106 ·
 german_reich 45 · french_interwar 14 · french_modern 8 · german_occupation 5.
