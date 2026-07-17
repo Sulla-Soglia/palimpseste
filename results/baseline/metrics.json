@@ -1,0 +1,29 @@
+{
+  "val_macro_auc": 0.6307530105113983,
+  "test_macro_auc": 0.7006100018819174,
+  "test_per_class": {
+    "germanic_hre": 0.7530364394187927,
+    "french_ancien": 0.7381818294525146,
+    "german_reich": 0.8461538553237915,
+    "french_interwar": 0.7597222328186035,
+    "german_occupation": 0.7454545497894287,
+    "french_modern": 0.3611111044883728
+  },
+  "periods": [
+    "germanic_hre",
+    "french_ancien",
+    "german_reich",
+    "french_interwar",
+    "german_occupation",
+    "french_modern"
+  ],
+  "args": {
+    "dataset": "data/processed/dataset.jsonl",
+    "images": "data/raw/images",
+    "epochs_head": 3,
+    "epochs_full": 8,
+    "batch_size": 32,
+    "lr": 0.001,
+    "out": "results/baseline"
+  }
+}

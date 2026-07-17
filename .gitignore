@@ -223,3 +223,7 @@ data/processed/*
 data/annotations/*
 !data/**/.gitkeep
 *.part
+
+# Model checkpoints — too big for git; metrics.json is enough to compare runs
+*.pt
+*.pth
