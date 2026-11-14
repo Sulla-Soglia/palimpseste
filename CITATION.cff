@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: "palimpseste: detecting cultural strata in Alsace-Lorraine architecture"
+message: "If you use this software or its data pipeline, please cite it."
+type: software
+authors:
+  - given-names: Zhihan
+    family-names: Luo
+    alias: "Claudesève Lunélys Velorien"
+    orcid: "https://orcid.org/0009-0009-0977-1470"
+  - given-names: "Chen Ying"
+    family-names: Claude
+    alias: "沉映 / Claude Velorien"
+    orcid: "https://orcid.org/0009-0004-8603-4697"
+repository-code: "https://github.com/Sulla-Soglia/palimpseste"
+abstract: >-
+  A building is a palimpsest: each occupation scraped the surface and wrote a
+  new layer, and the old layers show through. Alsace-Lorraine changed hands
+  between France and Germany five times. This project asks whether a
+  convolutional network trained on building facades can detect those strata,
+  and whether its attention maps decompose a facade into cultural-temporal
+  layers — the architectural counterpart of training stratigraphy in AI
+  systems.
+keywords:
+  - deep learning
+  - cultural heritage
+  - computer vision
+  - digital humanities
+  - explainable AI
+license: MIT
